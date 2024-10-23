@@ -1,4 +1,5 @@
 import MapCardSvg from '../assets/images/svg/map-card-svg.svg'
+import LoremCardSvg from'../assets/images/svg/lorem-card-svg.svg'
 export const MAP_CARDS = [
     {
         icon: MapCardSvg,
@@ -36,4 +37,40 @@ export const MAP_CARDS = [
         paragraph: "We have developed, capitalized, advised, and invested in $XXXmm of renewable energy projects over our careers.",
         readmore: "Read more"
     }
+]
+export const LOREM_CARDS = [
+    {
+        icon: LoremCardSvg,
+        heading: "Lorem ipsum",
+        paragraph: "We have developed, capitalized, advised, and invested in $XXXmm of renewable energy projects over our careers.",
+        readmore: "Read more"
+    },
+    {
+        icon: LoremCardSvg,
+        heading: "Lorem ipsum",
+        paragraph: "We have developed, capitalized, advised, and invested in $XXXmm of renewable energy projects over our careers.",
+        readmore: "Read more"
+    },
+    {
+        icon: LoremCardSvg,
+        heading: "Lorem ipsum",
+        paragraph: "We have developed, capitalized, advised, and invested in $XXXmm of renewable energy projects over our careers.",
+        readmore: "Read more"
+    }
+]
+export const FOOTER_LIST = [
+    {
+        list: "About website",
+        listBtn: "Home",
+        listBtnTwo: "How It Works",
+        listBtnThree: "Testimonials",
+        listBtnFour: "Why Choose Us",
+    },
+    {
+        list: "Follow links",
+        listBtn: "Instagram",
+        listBtnTwo: "Twitter",
+        listBtnThree: "Discord",
+        listBtnFour: "You Tube",
+    },
 ]

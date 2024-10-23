@@ -1,13 +1,18 @@
 import './App.css'
-import Header from './common/Header';
-import MapCards from './components/MapCards';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import About from './components/view/About';
+import Home from './components/view/Home';
 
 
 function App() {
   return (
     <>
-      <Header />
-      <MapCards/>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home/>} />
+          <Route path='/about' element={<About/>} />
+        </Routes>
+      </BrowserRouter>
     </>
 
   )

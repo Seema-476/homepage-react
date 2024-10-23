@@ -23,6 +23,9 @@ module.exports = {
         'orange': "#FF5501",
         'dark-orange': "#B1106F",
         'blue': "#CFEEFF",
+        'dark-blue': "#01A4FFBD",
+        'z-black': "#1e1e1e",
+        'light-yellow': "#FFF3ED",
       },
       boxShadow: {
         'custom-xl': "0px 1px 30px 0px #0000001A",
