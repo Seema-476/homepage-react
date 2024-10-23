@@ -15,18 +15,14 @@ const Footer = () => {
                       {FOOTER_LIST.map((value, i) => (
                           <div key={i} className='lg:w-[25%] w-[50%] px-3 flex lg:items-center flex-col lg:mt-0 mt-6'>
                               <p className='font-lato font-semibold text-lg text-white whitespace-nowrap pb-6'>{value.list}</p>
-                              {/* {content.map((v, list) => (
-                                  <ul key={list}>
-                                      <li><a className='font-lato font-normal text-base text-white opacity-70 hover:opacity-[1] duration-700' href="">{value.listBtn}</a></li>
-                                  </ul>
-                              ))} */}
-                              <ul className='flex-col flex'>
-                                  {/* <li className='font-lato font-semibold text-lg text-white whitespace-nowrap pb-6'>{value.list}</li> */}
-                                  <li className='pb-4'><a href='#' className='font-lato font-normal text-base text-white opacity-70 hover:opacity-[1] duration-700'>{value.listBtn}</a></li>
-                                  <li className='pb-4'><a href='#' className='font-lato font-normal text-base text-white opacity-70 hover:opacity-[1] duration-700'>{value.listBtnTwo}</a></li>
-                                  <li className='pb-4'><a href='#' className='font-lato font-normal text-base text-white opacity-70 hover:opacity-[1] duration-700'>{value.listBtnThree}</a></li>
-                                  <li><a href='#' className='font-lato font-normal text-base text-white opacity-70 hover:opacity-[1] duration-700'>{value.listBtnFour}</a></li>
-                              </ul>
+                              {value.content.map((list, item) => (
+                                  <ul key={item}>
+                                      <li className='pb-4'><a href='#' className='font-lato font-normal text-base text-white opacity-70 hover:opacity-[1] duration-700'>{list.listBtn}</a></li>
+                                      <li className='pb-4'><a href='#' className='font-lato font-normal text-base text-white opacity-70 hover:opacity-[1] duration-700'>{list.listBtnTwo}</a></li>
+                                      <li className='pb-4'><a href='#' className='font-lato font-normal text-base text-white opacity-70 hover:opacity-[1] duration-700'>{list.listBtnThree}</a></li>
+                                      <li><a href='#' className='font-lato font-normal text-base text-white opacity-70 hover:opacity-[1] duration-700'>{list.listBtnFour}</a></li>
+                               </ul>
+                           ))}
                               </div>
                       ))}                 
               </div>

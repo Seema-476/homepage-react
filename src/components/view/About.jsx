@@ -2,12 +2,14 @@ import React from 'react'
 import MapCards from '../about/MapCards'
 import Footer from '../../common/Footer'
 import Hero from '../../common/Hero'
+import SwiperSlider from '../about/SwiperSlider'
 
 const About = () => {
   return (
       <>
           <Hero />
-          <MapCards />
+      <MapCards />
+      <SwiperSlider/>
           <Footer />
       </> 
   )

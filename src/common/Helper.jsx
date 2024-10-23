@@ -61,16 +61,24 @@ export const LOREM_CARDS = [
 export const FOOTER_LIST = [
     {
         list: "About website",
-        listBtn: "Home",
-        listBtnTwo: "How It Works",
-        listBtnThree: "Testimonials",
-        listBtnFour: "Why Choose Us",
+        content: [
+            {
+                listBtn: "Home",
+                listBtnTwo: "How It Works",
+                listBtnThree: "Testimonials",
+                listBtnFour: "Why Choose Us",
+            },
+        ]
     },
     {
         list: "Follow links",
-        listBtn: "Instagram",
-        listBtnTwo: "Twitter",
-        listBtnThree: "Discord",
-        listBtnFour: "You Tube",
+        content: [
+            {
+                listBtn: "Instagram",
+                listBtnTwo: "Twitter",
+                listBtnThree: "Discord",
+                listBtnFour: "You Tube",
+            },
+        ]
     },
 ]
