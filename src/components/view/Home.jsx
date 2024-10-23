@@ -1,12 +1,12 @@
 import React from 'react'
 import LoremMapCards from '../home/LoremMapCards'
-import Header from '../../common/Header'
 import Footer from '../../common/Footer'
+import Hero from '../../common/Hero'
 
 const Home = () => {
   return (
       <>
-          <Header />
+          <Hero />
           <LoremMapCards />
           <Footer />
       </> 

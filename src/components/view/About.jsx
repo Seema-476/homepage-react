@@ -1,12 +1,12 @@
 import React from 'react'
 import MapCards from '../about/MapCards'
-import Header from '../../common/Header'
 import Footer from '../../common/Footer'
+import Hero from '../../common/Hero'
 
 const About = () => {
   return (
       <>
-          <Header />
+          <Hero />
           <MapCards />
           <Footer />
       </> 

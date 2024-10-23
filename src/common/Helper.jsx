@@ -1,38 +1,38 @@
-import MapCardSvg from '../assets/images/svg/map-card-svg.svg'
-import LoremCardSvg from'../assets/images/svg/lorem-card-svg.svg'
+import MapCardSvg from '../assets/images/svg/map-card.svg'
+import LoremCardSvg from '../assets/images/svg/lorem-card.svg'
 export const MAP_CARDS = [
     {
-        icon: MapCardSvg,
-        heading: "Lorem ipsum",
-        paragraph: "We have developed, capitalized, advised, and invested in $XXXmm of renewable energy projects over our careers.",
-        readmore:"Read more"
-    },
-     {
-        icon: MapCardSvg,
+        svgImage: MapCardSvg,
         heading: "Lorem ipsum",
         paragraph: "We have developed, capitalized, advised, and invested in $XXXmm of renewable energy projects over our careers.",
         readmore: "Read more"
     },
     {
-        icon: MapCardSvg,
+        svgImage: MapCardSvg,
         heading: "Lorem ipsum",
         paragraph: "We have developed, capitalized, advised, and invested in $XXXmm of renewable energy projects over our careers.",
         readmore: "Read more"
     },
     {
-        icon: MapCardSvg,
+        svgImage: MapCardSvg,
         heading: "Lorem ipsum",
         paragraph: "We have developed, capitalized, advised, and invested in $XXXmm of renewable energy projects over our careers.",
         readmore: "Read more"
     },
     {
-        icon: MapCardSvg,
+        svgImage: MapCardSvg,
         heading: "Lorem ipsum",
         paragraph: "We have developed, capitalized, advised, and invested in $XXXmm of renewable energy projects over our careers.",
         readmore: "Read more"
     },
     {
-        icon: MapCardSvg,
+        svgImage: MapCardSvg,
+        heading: "Lorem ipsum",
+        paragraph: "We have developed, capitalized, advised, and invested in $XXXmm of renewable energy projects over our careers.",
+        readmore: "Read more"
+    },
+    {
+        svgImage: MapCardSvg,
         heading: "Lorem ipsum",
         paragraph: "We have developed, capitalized, advised, and invested in $XXXmm of renewable energy projects over our careers.",
         readmore: "Read more"

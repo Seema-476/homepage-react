@@ -1,5 +1,5 @@
 import React from 'react'
-import { LOREM_CARDS } from '../../utils/Helper'
+import { LOREM_CARDS } from '../../common/Helper'
 
 const LoremMapCards = () => {
   return (
