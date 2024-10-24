@@ -22,3 +22,26 @@
          justify-content: center;
      }
  }
+
+ @media(max-width:992px) {
+     .slick-next {
+         display: none !important;
+     }
+
+     .slick-prev {
+         display: none !important;
+     }
+ }
+
+ /* slick slider */
+ .slick-track {
+     display: flex;
+     gap: 20px;
+ }
+   .slick-next::before {
+    color: skyblue;
+   }
+
+   .slick-prev::before {
+      color: skyblue;
+   }

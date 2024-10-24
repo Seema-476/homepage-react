@@ -3,9 +3,9 @@ import footerLogo from '../assets/images/png/footer-logo.png'
 import { FOOTER_LIST } from '../common/Helper'
 
 const Footer = () => {
-    const year = new Date().getFullYear()
+    const year = new Date().getFullYear();
   return ( 
-      <div className='bg-black pt-[78px] rounded-t-[30px]'>
+      <div className='bg-black pt-[78px]'>
           <div className='container'>
               <div className='flex flex-wrap flex-row -mx-3 pb-[61px]'>
                   <div className='lg:w-[50%] w-full px-3'>

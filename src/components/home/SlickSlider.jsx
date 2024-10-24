@@ -9,7 +9,24 @@ export default function SlickSlider() {
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
-        Autoplay:true,
+        autoplay: false,
+        autoplaySpeed: 1000,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 640,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            },
+        ]
     };
     return (
         <div className='py-14'>
