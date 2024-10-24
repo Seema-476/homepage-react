@@ -19,7 +19,6 @@ const SwiperSlider = () => {
             spaceBetween={20}
             slidesPerView={1}
             effect={'flip'}
-            grabCursor={true}
             navigation
             pagination={{ clickable: true }}
             loop={true}

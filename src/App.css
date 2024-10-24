@@ -1,21 +1,24 @@
+ /* swiper */
  .swiper-horizontal>.swiper-pagination-bullets,
  .swiper-pagination-bullets.swiper-pagination-horizontal {
-    bottom: -30px !important;
- }
- .swiper-button-prev{
-    left: -55px !important;
+     bottom: -30px !important;
  }
 
- @media (max-width:640px){
-    .swiper-button-next{
-        display: none !important;
-    }
-         .swiper-button-prev {
-             display: none !important;
-         }
-                  .swiper-flip .swiper-slide-active {
-                      display: flex;
-                      justify-content: center;
-                  }
+ .swiper-button-prev {
+     left: -55px !important;
  }
- 
+
+ @media (max-width:640px) {
+     .swiper-button-next {
+         display: none !important;
+     }
+
+     .swiper-button-prev {
+         display: none !important;
+     }
+
+     .swiper-flip .swiper-slide-active {
+         display: flex;
+         justify-content: center;
+     }
+ }
