@@ -4,7 +4,7 @@ import { MAP_CARDS } from '../../common/Helper'
 const MapCards = () => {
   return (
     <div className='container mx-auto py-14'>
-      <h3 className='font-inter font-semibold text-4xl text-black text-center pb-10'>Map Cards </h3>
+      <h3 className='font-inter font-semibold text-4xl text-black text-center pb-10 animate__animated animate__flipInX animate__slow	2s animate__infinite'>Map Cards </h3>
       <div className='flex flex-wrap flex-row -mx-3 justify-center'>
         {MAP_CARDS.map((obj, index) => (
           <div key={index} className='lg:w-[33.33%] sm:w-[50%] w-full px-3 flex justify-center lg:pb-6 pb-5'>
