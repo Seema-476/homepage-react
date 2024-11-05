@@ -81,4 +81,4 @@ export const FOOTER_LIST = [
             },
         ]
     },
-]
+] 

@@ -5,7 +5,8 @@ import Hero from '../../common/Hero'
 import SlickSlider from '../home/SlickSlider'
 import EmailjsPractice from '../../common/EmailjsPractice'
 import AnimationKeyFrame from '../../common/AnimationKeyFrame'
-import CounterPractice from '../../common/CounterPractice'
+import Cards from '../../common/Cards'
+import HooksPractice from '../../common/HooksPractice'
 
 
 const Home = () => {
@@ -16,7 +17,8 @@ const Home = () => {
             <SlickSlider />
             <EmailjsPractice />
             <AnimationKeyFrame />
-            <CounterPractice/>
+            <HooksPractice />
+            <Cards/>
             <Footer />
            </>
     )
