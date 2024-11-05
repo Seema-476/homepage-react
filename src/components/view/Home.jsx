@@ -7,6 +7,7 @@ import EmailjsPractice from '../../common/EmailjsPractice'
 import AnimationKeyFrame from '../../common/AnimationKeyFrame'
 import Cards from '../../common/Cards'
 import HooksPractice from '../../common/HooksPractice'
+import CounterPractice from '../../common/CounterPractice'
 
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
             <EmailjsPractice />
             <AnimationKeyFrame />
             <HooksPractice />
+            <CounterPractice/>
             <Cards/>
             <Footer />
            </>

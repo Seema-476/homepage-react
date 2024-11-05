@@ -29,8 +29,6 @@ const HooksPractice = () => {
           <p className='font-medium text-black text-xl pb-5'>Timer</p>
           <p className='text-lg text-black opacity-60'>{count}</p>
         </div>
-
-
       </div>
     </div>
   )
