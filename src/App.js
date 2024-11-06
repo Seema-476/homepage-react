@@ -2,6 +2,7 @@ import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import About from './components/view/About';
 import Home from './components/view/Home';
+import BackToTop from '../src/common/BackToTop'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
           <Route path='/about' element={<About/>} />
         </Routes>
       </BrowserRouter>
+      <BackToTop/>
     </>
 
   )

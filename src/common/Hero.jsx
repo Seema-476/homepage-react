@@ -10,6 +10,7 @@ const Hero = () => {
         loop: {},
         typeSpeed: 120,
         deleteSpeed: 40,
+
     });
     return (
         <>

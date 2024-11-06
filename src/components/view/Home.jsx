@@ -8,11 +8,13 @@ import AnimationKeyFrame from '../../common/AnimationKeyFrame'
 import Cards from '../../common/Cards'
 import HooksPractice from '../../common/HooksPractice'
 import CounterPractice from '../../common/CounterPractice'
+import PreLoader from '../../common/PreLoader'
 
 
 const Home = () => {
     return (
         <>
+            <PreLoader/>
             <Hero />
             <LoremMapCards />
             <SlickSlider />

@@ -3,7 +3,7 @@ import CountUp from 'react-countup'
 import ReactVisibilitySensor from 'react-visibility-sensor'
 
 const CounterPractice = () => {
-    const [ isVisible,setIsVisible] = useState(0)
+    const [ isVisible,setIsVisible] = useState(false)
     function onVisible(isVisible) {
         if (isVisible) {
             setIsVisible(true)
@@ -12,7 +12,7 @@ const CounterPractice = () => {
     return (
         <div>
             <div className='container'>
-                <p className='font-medium text-xl text-center'>Counter</p>
+                <p className='font-bold text-4xl text-center'>Counter</p>
                 <div className='text-center pt-5'>
                     <ReactVisibilitySensor onChange={onVisible}>
                         <div>
