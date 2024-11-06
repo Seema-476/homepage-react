@@ -2,14 +2,14 @@ import React, { useState, useEffect } from 'react'
 
 const HooksPractice = () => {
   const [name, setName] = useState('rajni');
-  const [count, setCount] = useState(false);
+  const [count, setCount] = useState(0);
   useEffect(() => {
     if (count >= 10) {
       setTimeout(false);
       return
     }
     setTimeout(() => {
-      setCount((count) => count + 0 + 1);
+      setCount((count) => count + 1);
     }, 1000);
   },);
 
