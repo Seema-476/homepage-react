@@ -14,7 +14,7 @@ const TiltjsPractice = () => {
         easing: "cubic-bezier(.03,.98,.52,.99)",   
     }
   return (
-      <div className='py-9'>
+      <div className='py-9 overflow-hidden'>
           <div className='container'>
               <h3 className='font-inter font-semibold text-4xl text-black text-center pb-9 animate__animated animate__flipInX animate__slow 1s'>TiltjsPractice </h3>
               <Tilt options={defaultOptions} style={{ height: 50, width: 250 }} className='text-center mx-auto'>

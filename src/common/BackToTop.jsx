@@ -9,7 +9,7 @@ const BackToTop = () => {
     };
 
     const scrollTopHandler = () => {
-        setScrollTopVisible(window.scrollY >= 100);
+        setScrollTopVisible(window.scrollY >= 70);
     };
 
     useEffect(() => {

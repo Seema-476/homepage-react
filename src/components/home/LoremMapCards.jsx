@@ -4,7 +4,7 @@ import 'animate.css'
 
 const LoremMapCards = () => {
   return (
-      <div className='container mx-auto py-14'>
+      <div className='container mx-auto py-14 overflow-hidden'>
           <h3 className='font-inter font-semibold text-4xl text-black text-center pb-10 animate__animated animate__flipInX animate__slow 1s animate__infinite'>Lorem Map Cards </h3>
           <div className='flex flex-wrap flex-row -mx-3 justify-center'>
               {LOREM_CARDS.map((items, text) => (
