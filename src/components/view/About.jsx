@@ -5,6 +5,7 @@ import Hero from '../../common/Hero'
 import SwiperSlider from '../about/SwiperSlider'
 import TiltjsPractice from '../../common/TiltjsPractice'
 import LottiePractice from '../../common/LottiePractice'
+import CustomTabs from '../../common/CustomTabs'
 
 const About = () => {
     return (
@@ -13,7 +14,8 @@ const About = () => {
             <MapCards />
             <TiltjsPractice/>
             <SwiperSlider />
-            <LottiePractice/>
+            <LottiePractice />
+            <CustomTabs/>
             <Footer className="!bg-deep-blue" />
         </>
     )
