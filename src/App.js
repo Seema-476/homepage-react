@@ -4,6 +4,7 @@ import About from './components/view/About';
 import Home from './components/view/Home';
 import BackToTop from '../src/common/BackToTop'
 import Features from './components/view/Features';
+import Dashboard from './components/view/Dashboard';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Route path='/' element={<Home/>} />
           <Route path='/about' element={<About />} />
           <Route path='/features' element={<Features />} />
+          <Route path='/dashboard' element={<Dashboard />} />
         </Routes>
       </BrowserRouter>
       <BackToTop/>
