@@ -1,7 +1,7 @@
 import React from 'react'
 import { useLocation } from 'react-router-dom'
 import CommonHeading from '../common/CommonHeading'
-import { useTypewriter} from 'react-simple-typewriter'
+import { useTypewriter } from 'react-simple-typewriter'
 
 const Hero = () => {
     const pathname = useLocation().pathname;
@@ -10,11 +10,9 @@ const Hero = () => {
         loop: {},
         typeSpeed: 120,
         deleteSpeed: 40,
-
     });
     return (
-        <>
-            <div className={`${pathname === "/" ? "bg-orange rounded-b-xl" : pathname === "/about" ? "bg-dark-blue" : ""}`}>
+        <div className={`${pathname === "/" ? "bg-orange rounded-b-xl" : pathname === "/about" ? "bg-dark-blue" : ""}`}>
                 <div className='container'>
                     <div className='flex items-center justify-center w-full h-screen'>
                         <div>
@@ -25,7 +23,6 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-        </>
     )
 }
 

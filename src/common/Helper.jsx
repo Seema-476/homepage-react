@@ -1,6 +1,7 @@
 import MapCardSvg from '../assets/images/svg/map-card.svg'
 import LoremCardSvg from '../assets/images/svg/lorem-card.svg'
 import { Dashboard, Demand, Dots, Events, Programmes } from "./Icons"
+import strake from '../assets/images/png/stake.png'
 
 export const MAP_CARDS = [
     {

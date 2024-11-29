@@ -31,8 +31,9 @@ module.exports = {
       boxShadow: {
         'custom-xl': "0px 1px 30px 0px #0000001A",
       },
-      bgImage: {
-        'hero-section-bg': "url('./assets/images/png/hero-section-bg.png')",
+      backgroundImage: {
+        'our-partners': "url('./assets/images/png/ourpartners.png')",
+        'strake': "url('./assets/images/png/strake-bg.png')",
       },
       fontFamily: {
         'inter': "'inter' ,sans serif",
