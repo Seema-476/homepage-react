@@ -1,5 +1,6 @@
-import React, { useState } from 'react'
+import React, { useState} from 'react'
 import swal from 'sweetalert';
+import emailjs from '@emailjs/browser';
 
 const FormValidation = () => {
   const [formData, setFormData] = useState({
@@ -41,8 +42,10 @@ const FormValidation = () => {
         confirmPassword: "",
       });
       swal({
-        title: "Are you sure?",
-        text: "Confirmed!",
+        title: "Form Submitted Successfully!",
+        text: "Your form has been submitted. Do you want to proceed?",
+        icon: "success",
+        buttons: ["Cancel", "Proceed"],
         dangerMode: true,
       });
     }

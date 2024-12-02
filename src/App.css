@@ -85,4 +85,27 @@
  .swal-title {
     padding: 0 !important;
  }
-
+ .swal-text{
+    text-align: center;
+ }
+ .swal-button {
+  background-color: rgb(222, 41, 41) !important;
+    color: white;
+    border: none;
+    box-shadow: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 24px;
+    margin: 0;
+    border: none !important;
+    cursor: pointer;
+    transition: .3s;
+}
+.swal-button:hover{
+    border: none !important;
+    scale: 95;
+}
+.swal-button--danger {
+    background-color: #b8b8b8;
+}
