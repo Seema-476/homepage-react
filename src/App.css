@@ -74,4 +74,15 @@
          background-color: green;
      }
  }
+ /* sweetalert */
+ .swal-footer{
+    text-align: center;
+    padding: 7px 24px;
+ }
+ .swal-modal {
+    width: 400px;
+ }
+ .swal-title {
+    padding: 0 !important;
+ }
 

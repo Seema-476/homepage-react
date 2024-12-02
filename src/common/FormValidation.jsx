@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import swal from 'sweetalert';
 
 const FormValidation = () => {
   const [formData, setFormData] = useState({
@@ -38,6 +39,11 @@ const FormValidation = () => {
         email: "",
         password: "",
         confirmPassword: "",
+      });
+      swal({
+        title: "Are you sure?",
+        text: "Confirmed!",
+        dangerMode: true,
       });
     }
   };
