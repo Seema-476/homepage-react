@@ -1,6 +1,5 @@
 import React, { useState} from 'react'
 import swal from 'sweetalert';
-import emailjs from '@emailjs/browser';
 
 const FormValidation = () => {
   const [formData, setFormData] = useState({

@@ -40,11 +40,11 @@
  }
 
  .slick-next::before {
-     color: skyblue;
+     color: skyblue !important;
  }
 
  .slick-prev::before {
-     color: skyblue;
+     color: skyblue !important;
  }
 
  /* keyframe */

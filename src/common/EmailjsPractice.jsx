@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef} from 'react';
 import emailjs from '@emailjs/browser';
 
 export const EmailjsPractice = () => {
@@ -34,8 +34,8 @@ export const EmailjsPractice = () => {
                         <textarea name="message" placeholder='Message' rows={1} cols={25} className='border border-black outline-none p-2' /></label>
                     <input type="submit" value="Send" className='font-outfit font-medium text-2xl bg-black text-white py-3 px-8 hover:scale-95 duration-700 text-center rounded-lg' />
                 </form>
-          </div>
-      </div>
+            </div>
+        </div>
     );
 };
 export default EmailjsPractice
