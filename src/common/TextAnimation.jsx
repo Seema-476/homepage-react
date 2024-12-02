@@ -3,7 +3,6 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
-
 const TextAnimation = () => {
     useEffect(() => {
         const text = document.querySelector('.animated-text');

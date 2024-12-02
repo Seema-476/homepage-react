@@ -104,7 +104,7 @@
 }
 .swal-button:hover{
     border: none !important;
-    scale: 95;
+    scale: .95;
 }
 .swal-button--danger {
     background-color: #b8b8b8;

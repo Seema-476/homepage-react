@@ -80,7 +80,7 @@ const FormValidation = () => {
                   type={showPassword ? 'text' : 'password'}
                   placeholder='Password'
                   autoComplete='new-password'
-                  className='outline-none' onChange={(e) => setFormData({ ...formData, password: e.target.value })}
+                  className='outline-none w-full' onChange={(e) => setFormData({ ...formData, password: e.target.value })}
                   value={formData.password} />
                 <button type="button" onClick={() => setShowPassword(!showPassword)}
                   className="text-gray-500">{showPassword ? 'Hide' : 'Show'}</button>
@@ -94,7 +94,7 @@ const FormValidation = () => {
                 <input
                   type={showConfirmPassword ? 'text' : 'password'}
                   placeholder='Confirm Password'
-                  className="outline-none"
+                  className="outline-none w-full"
                   onChange={(e) => setFormData({ ...formData, confirmPassword: e.target.value })}
                   value={formData.confirmPassword} />
                 <button type="button" onClick={() => setConfirmPassword(!showConfirmPassword)}
