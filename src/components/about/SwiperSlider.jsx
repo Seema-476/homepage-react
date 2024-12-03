@@ -5,8 +5,8 @@ import 'swiper/css';
 import 'swiper/css/effect-flip'
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import aBirdImage from '../../assets/images/webp/a-bird.webp'
-import aGirlImage from '../../assets/images/webp/a-girl.webp'
+import aBirdImage from '../../assets/images/webp/bird.webp'
+import aGirlImage from '../../assets/images/webp/girl.webp'
 import butterflyImage from '../../assets/images/webp/butterfly-image.webp'
 import multipleColorImage from '../../assets/images/webp/multiple-color-image.webp'
 

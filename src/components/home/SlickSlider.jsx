@@ -2,7 +2,7 @@ import React from 'react'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import aBirdImage from '../../assets/images/webp/a-bird.webp'
+import aBirdImage from '../../assets/images/webp/bird.webp'
 
 export default function SlickSlider() {
     var settings = {

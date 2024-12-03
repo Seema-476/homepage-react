@@ -3,12 +3,12 @@ import LoremMapCards from '../home/LoremMapCards'
 import Footer from '../../common/Footer'
 import Hero from '../../common/Hero'
 import SlickSlider from '../home/SlickSlider'
-import EmailjsPractice from '../../common/EmailjsPractice'
-import AnimationKeyFrame from '../../common/AnimationKeyFrame'
-import Cards from '../../common/Cards'
-import HooksPractice from '../../common/HooksPractice'
-import CounterPractice from '../../common/CounterPractice'
-import PreLoader from '../../common/PreLoader'
+import EmailjsPractice from '../home/EmailjsPractice'
+import AnimationKeyFrame from '../home/AnimationKeyFrame'
+import Cards from '../home/Cards'
+import HooksPractice from '../home/HooksPractice'
+import CounterPractice from '../home/CounterPractice'
+import PreLoader from '../home/PreLoader'
 
 
 const Home = () => {

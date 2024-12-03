@@ -8,7 +8,7 @@
      left: -55px !important;
  }
 
- @media (max-width:640px) {
+ @media (max-width:639.98px) {
      .swiper-button-next {
          display: none !important;
      }
@@ -23,7 +23,7 @@
      }
  }
 
- @media(max-width:992px) {
+ @media(max-width:991.98px) {
      .slick-next {
          display: none !important;
      }
