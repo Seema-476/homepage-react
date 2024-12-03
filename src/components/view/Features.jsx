@@ -1,12 +1,14 @@
 import React from 'react'
 import FormValidation from '../../common/FormValidation'
-import Gsap from '../../common/Gsap'
+import GsapPractice from '../../common/GsapPractice'
+import AccordionCustom from '../features/AccordionCustom'
 
 const Features = () => {
   return (
     <>
       <FormValidation />
-      <Gsap />
+      <GsapPractice />
+      <AccordionCustom/>
     </>
   )
 }

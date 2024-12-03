@@ -62,8 +62,8 @@ const TextAnimation = () => {
     }, []);
     
   return (
-      <div className='py-12'><p className='text-5xl text-black font-medium text-center animated-text1'>TextAnimation</p>
-              <p className='text-4xl text-black max-w-[650px] text-center mx-auto pt-5 animated-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      <div className='py-12'><p className='md:text-5xl text-3xl text-black font-medium text-center animated-text1 mx-auto'>TextAnimation</p>
+          <p className='md:text-2xl text-xl text-black max-w-[650px] text-center mx-auto pt-5 animated-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
               </p>
       </div>
   )

@@ -1,4 +1,4 @@
-import React, { useState} from 'react'
+import React, { useState } from 'react'
 import swal from 'sweetalert';
 
 const FormValidation = () => {
@@ -53,28 +53,28 @@ const FormValidation = () => {
   return (
     <div className='py-12'>
       <div className='container'>
-        <h3 className='font-inter font-semibold text-4xl text-black text-center pb-9'>Form Validation</h3>
-        <form onSubmit={handelSubmit} className='flex flex-col justify-center items-center gap-3'>
-            <div>
-              <input
-                type="text"
-                placeholder='Name'
-                className="p-2 border border-black w-96 rounded outline-none"
-                onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                value={formData.name} />
-              {error.name && <p className="mt-1 text-red-500">{error.name}</p>}
+        <h3 className='font-inter font-semibold md:text-5xl text-3xl text-black text-center pb-9'>Form Validation</h3>
+        <form onSubmit={handelSubmit} className='flex flex-col justify-center items-center gap-3 max-w-[400px] mx-auto w-full'>
+          <div className='w-full mx-auto text-center'>
+            <input
+              type="text"
+              placeholder='Name'
+              className="p-2 border border-black w-80 rounded outline-none"
+              onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+              value={formData.name} />
+            {error.name && <p className="mt-1 text-red-500">{error.name}</p>}
           </div>
-            <div>
-              <input
-                type="email"
-                placeholder='Email'
-                className="p-2 border border-black w-96 rounded outline-none"
-                onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                value={formData.email} />
-              {error.email && <p className="mt-1 text-red-500">{error.email}</p>}
-       </div>
-          <div>
-            <div className="p-2 border border-black w-96 rounded">
+          <div className='w-full mx-auto text-center'>
+            <input
+              type="email"
+              placeholder='Email'
+              className="p-2 border border-black w-80 rounded outline-none"
+              onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+              value={formData.email} />
+            {error.email && <p className="mt-1 text-red-500">{error.email}</p>}
+          </div>
+          <div className='w-full mx-auto text-center'>
+            <div className="p-2 border border-black w-80 rounded mx-auto">
               <div className='flex justify-between'>
                 <input
                   type={showPassword ? 'text' : 'password'}
@@ -87,9 +87,9 @@ const FormValidation = () => {
               </div>
             </div>
             {error.password && <p className="mt-1 text-red-500">{error.password}</p>}
-        </div>
-          <div>
-            <div className="p-2 border border-black w-96 rounded" >
+          </div>
+          <div className='w-full mx-auto text-center'>
+            <div className="p-2 border border-black w-80 rounded mx-auto" >
               <div className='flex justify-between'>
                 <input
                   type={showConfirmPassword ? 'text' : 'password'}
@@ -102,13 +102,13 @@ const FormValidation = () => {
               </div>
             </div>
             {error.confirmPassword && <p className="mt-1 text-red-500">{error.confirmPassword}</p>}
-         </div>
+          </div>
           <div className="flex flex-col">
             <label className="text-black">Select a color</label>
             <select
               name="selectOption" onChange={(e) => setFormData({ ...formData, selectOption: e.target.value })}
-              value={formData.selectOption} 
-              className="p-2 border border-black w-96 rounded outline-none">
+              value={formData.selectOption}
+              className="p-2 border border-black w-80 rounded outline-none">
               <option value="Red">Red</option>
               <option value="BLue">Blue</option>
             </select>
@@ -116,7 +116,7 @@ const FormValidation = () => {
           <div className='mx-auto text-center mt-5'>
             <button type='submit' className='bg-black py-2 px-5 rounded text-white font-medium hover:scale-95 duration-700'>Submit</button>
           </div>
-          </form>        
+        </form>
       </div>
     </div>
   )

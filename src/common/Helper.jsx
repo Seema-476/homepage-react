@@ -1,7 +1,6 @@
 import MapCardSvg from '../assets/images/svg/map-card.svg'
 import LoremCardSvg from '../assets/images/svg/lorem-card.svg'
-import { Dashboard, Demand, Dots, Events, Programmes } from "./Icons"
-import strake from '../assets/images/png/stake.png'
+import { Arrow, Dashboard, Demand, Dots, Events, Programmes } from "./Icons"
 
 export const MAP_CARDS = [
     {
@@ -84,7 +83,7 @@ export const FOOTER_LIST = [
             },
         ]
     },
-] 
+]
 export const SIDEBAR_BUTTON = [
     {
         id: 'tab-1',
@@ -110,4 +109,26 @@ export const SIDEBAR_BUTTON = [
         sidebarSvg: <Programmes />,
         text: "Programmes"
     }
+]
+export const ACCORDION_DATA = [
+    {
+        accobtn: 'Group-1',
+        arrowIcon: <Arrow />,
+        accotext: "Nibh dictum nulla morbi ornare. Varius sit at eget nunc. Nibh dictum nulla morbi ornare. Varius sit at eget nunc. Nibh dictum nulla morbi ornare. Varius sit at eget nunc.",
+    },
+    {
+        accobtn: 'Group-2',
+        arrowIcon: <Arrow />,
+        accotext: "Nibh dictum nulla morbi ornare. Varius sit at eget nunc. Nibh dictum nulla morbi ornare. Varius sit at eget nunc. Nibh dictum nulla morbi ornare. Varius sit at eget nunc.",
+    },
+    {
+        accobtn: 'Group-3',
+        arrowIcon: <Arrow />,
+        accotext: "Nibh dictum nulla morbi ornare. Varius sit at eget nunc. Nibh dictum nulla morbi ornare. Varius sit at eget nunc. Nibh dictum nulla morbi ornare. Varius sit at eget nunc.",
+    },
+    {
+        accobtn: 'Group-4',
+        arrowIcon: <Arrow />,
+        accotext: "Nibh dictum nulla morbi ornare. Varius sit at eget nunc. Nibh dictum nulla morbi ornare. Varius sit at eget nunc. Nibh dictum nulla morbi ornare. Varius sit at eget nunc.",
+    },
 ]
