@@ -13,20 +13,31 @@ const CounterPractice = () => {
         <div>
             <div className='container'>
                 <p className='font-bold md:text-4xl text-2xl text-center'>Counter</p>
-                <div className='text-center pt-5'>
+                <div className='text-center mt-5 bg-green-600 py-4 px-9 w-[200px] mx-auto'>
                     <ReactVisibilitySensor onChange={onVisible}>
                         <div>
-                            <CountUp start={0} end={isVisible ? 100 : 0} delay={1}>
-                            </CountUp>
-                        </div>
-                    </ReactVisibilitySensor>
-                    <ReactVisibilitySensor onChange={onVisible}>
-                        <div>
-                            <CountUp start={50} end={isVisible ? 100 : 0} delay={1}>
+                            <CountUp start={0} end={isVisible ? 50 : 0} delay={2} className=' text-white text-2xl'>
                             </CountUp>
                         </div>
                     </ReactVisibilitySensor>
                 </div>
+                <div className='text-center mt-5 bg-dark-blue py-4 px-9 w-[200px] mx-auto'>
+                    <ReactVisibilitySensor onChange={onVisible}>
+                        <div>
+                            <CountUp start={0} end={isVisible ? 90 : 0} delay={2} className='text-white text-2xl'>
+                            </CountUp>
+                        </div>
+                    </ReactVisibilitySensor>
+                  </div>
+                <div className='text-center mt-5 bg-deep-blue py-4 px-9 w-[200px] mx-auto'>
+                    <ReactVisibilitySensor onChange={onVisible}>
+                        <div>
+                            <CountUp start={0} end={isVisible ? 60 : 0} delay={2} className='text-white text-2xl'>
+                            </CountUp>
+                        </div>
+                    </ReactVisibilitySensor>
+                </div>
+                
             </div>
         </div>
     )

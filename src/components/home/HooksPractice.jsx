@@ -16,7 +16,7 @@ const HooksPractice = () => {
   return (
     <div className='py-12'>
       <div className='container'>
-        <h3 className='font-inter font-semibold text-4xl text-black text-center pb-9'>Counter Practice </h3>
+        <h3 className='font-inter font-semibold text-4xl text-black text-center pb-9'>Hooks Practice </h3>
         {/* use state */}
         <div className='text-center '>
           <p className='text-lg text-black opacity-60'>{name}</p>
